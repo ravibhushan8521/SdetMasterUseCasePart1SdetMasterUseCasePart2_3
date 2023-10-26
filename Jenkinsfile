@@ -3,21 +3,21 @@ pipeline {
     stages {
         stage('Clean') {
             steps {
-                dir("Krissel__RestfulAndSoapWS") {
+                dir("Ravi_RestfulAndSoapWS") {
 		bat "mvn clean"
 	}
             }
         }
         stage('Compile') {
             steps {
-	dir("Krissel__RestfulAndSoapWS") {
+	dir("Ravi_RestfulAndSoapWS") {
 		bat "mvn compile"
 	}
             }
         }
         stage('Test') {
             steps {
-	dir("Krissel__RestfulAndSoapWS") {
+	dir("Ravi_RestfulAndSoapWS") {
 		bat "mvn test"
 	}
             }
