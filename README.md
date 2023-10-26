@@ -1,1 +1,1 @@
-# SdetMasterUseCasePart1SdetMasterUseCasePart2_3
+# SdetMasterUseCasePart2_3
